@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Colores básicos -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Identidad visual de EcoRuta -->
+    <color name="eco_verde_principal">#198754</color>
+    <color name="eco_verde_oscuro">#0F5132</color>
+    <color name="eco_verde_claro">#D1FAE5</color>
+    <color name="eco_verde_suave">#ECFDF5</color>
+
+    <!-- Fondos -->
+    <color name="eco_fondo">#F8FAFC</color>
+    <color name="eco_blanco">#FFFFFF</color>
+
+    <!-- Textos y bordes -->
+    <color name="eco_texto_principal">#1E293B</color>
+    <color name="eco_texto_secundario">#64748B</color>
+    <color name="eco_borde">#DDE7E1</color>
+
+    <!-- Resultados de clasificación -->
+    <color name="eco_resultado_verde">#E7F7ED</color>
+    <color name="eco_resultado_azul">#EAF3FF</color>
+    <color name="eco_resultado_gris">#EEF2F6</color>
+    <color name="eco_resultado_rojo">#FDECEC</color>
+    <color name="eco_resultado_amarillo">#FFF6D8</color>
+
+</resources>

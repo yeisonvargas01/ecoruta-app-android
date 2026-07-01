@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Información general -->
+
+    <string name="app_name">
+        EcoRuta Ciudadana
+    </string>
+
+    <string name="titulo_principal">
+        EcoRuta Ciudadana
+    </string>
+
+    <string name="frase_principal">
+        Reciclar hoy, respirar mañana.
+    </string>
+
+    <string name="etiqueta_ambiental">
+        Educación ambiental + acción ciudadana
+    </string>
+
+    <string name="descripcion_inicio">
+        Aprende a clasificar residuos, consulta puntos de recolección
+        y reporta situaciones ambientales desde tu comunidad.
+    </string>
+
+    <string name="titulo_servicios">
+        ¿Qué deseas hacer?
+    </string>
+
+    <string name="boton_clasificar">
+        Clasificar un residuo
+    </string>
+
+    <string name="boton_puntos">
+        Consultar puntos de recolección
+    </string>
+
+    <string name="boton_reportar">
+        Crear un reporte ciudadano
+    </string>
+
+    <string name="boton_informacion">
+        Conocer el proyecto
+    </string>
+
+    <string name="titulo_api">
+        Integración EcoRuta
+    </string>
+
+    <string name="descripcion_api">
+        La aplicación móvil utilizará la misma API Spring Boot
+        y la misma base de datos PostgreSQL de la página web.
+    </string>
+
+    <!-- Pantalla para clasificar residuos -->
+
+    <string name="titulo_clasificar">
+        Clasificar residuo
+    </string>
+
+    <string name="accion_volver">
+        Volver
+    </string>
+
+    <string name="descripcion_clasificar">
+        Escribe el nombre del residuo y te indicaremos cómo debes disponerlo.
+    </string>
+
+    <string name="pista_residuo">
+        Ejemplo: botella plástica
+    </string>
+
+    <string name="boton_clasificar_residuo">
+        Clasificar residuo
+    </string>
+
+    <string name="titulo_resultado">
+        Resultado
+    </string>
+
+    <string name="resultado_pendiente">
+        La clasificación aparecerá aquí.
+    </string>
+
+    <string name="orientacion_pendiente">
+        Ingresa un residuo para comenzar.
+    </string>
+
+    <string name="ejemplos_residuos">
+        Puedes probar con: papel, cáscara de banano, pila,
+        servilleta o botella plástica.
+    </string>
+
+    <string name="error_residuo_obligatorio">
+        Escribe el nombre de un residuo
+    </string>
+
+    <string name="categoria_aprovechable">
+        Residuo aprovechable
+    </string>
+
+    <string name="orientacion_aprovechable">
+        Deposítalo limpio y seco en la caneca blanca.
+    </string>
+
+    <string name="categoria_organico">
+        Residuo orgánico aprovechable
+    </string>
+
+    <string name="orientacion_organico">
+        Deposítalo en la caneca verde o utilízalo para compostaje.
+    </string>
+
+    <string name="categoria_no_aprovechable">
+        Residuo no aprovechable
+    </string>
+
+    <string name="orientacion_no_aprovechable">
+        Deposítalo en la caneca negra.
+    </string>
+
+    <string name="categoria_peligroso">
+        Residuo peligroso
+    </string>
+
+    <string name="orientacion_peligroso">
+        No lo mezcles con residuos comunes.
+        Llévalo a un punto especializado.
+    </string>
+
+    <string name="categoria_desconocida">
+        Residuo no identificado
+    </string>
+
+    <string name="orientacion_desconocida">
+        Consulta las indicaciones ambientales de tu municipio
+        antes de desecharlo.
+    </string>
+
+</resources>
