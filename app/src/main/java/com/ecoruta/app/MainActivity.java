@@ -60,8 +60,17 @@ public class MainActivity extends AppCompatActivity {
                         R.id.btnClasificar
                 );
 
+        MaterialButton botonPuntos =
+                findViewById(
+                        R.id.btnPuntos
+                );
+
         botonClasificar.setOnClickListener(
                 vista -> abrirClasificacion()
+        );
+
+        botonPuntos.setOnClickListener(
+                vista -> abrirPuntosRecoleccion()
         );
     }
 
@@ -71,6 +80,17 @@ public class MainActivity extends AppCompatActivity {
                 new Intent(
                         MainActivity.this,
                         ClasificarResiduoActivity.class
+                );
+
+        startActivity(intent);
+    }
+
+    private void abrirPuntosRecoleccion() {
+
+        Intent intent =
+                new Intent(
+                        MainActivity.this,
+                        PuntosRecoleccionActivity.class
                 );
 
         startActivity(intent);
